@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    
+    <!-- TailWind CSS -->
+    <link rel="stylesheet" href="css/output.css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha384-qI8v+xS+F4F4M4RfD7C/c6HH9f7uM0zy1xPH0Xj0/Rhm1OJeEyI+hH2eVZ29A6P" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha384-XJ3H7n1+VZjDNGuj9X2xyOi1S4YZAKcSkh+qQjJ6NYxwo5D2Hmv+md9ZPUoYNOcP" crossorigin="anonymous">
+
+    <!-- GOOGLE Fonts -->
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Alice -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- KARANTINA -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alice&family=Karantina:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alice&family=Karantina:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+        <!-- Include Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha384-m5bT+p+2WVv9M7zG7CnD+mLt7pyo6QLpHUlEl3D22Gx7+X7qj5+ri5GHx4Z4LEa2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha384-uh2n8M01nRjx7cW7Tx6j3q3hfEEoA58cH98oxjEsmB2S6M6ueVS3FQg41oH+IQQd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+
+  </head>
+  <body>
+
+    <!-- START Header -->
+    <header id="home" class="absolute left-0 w-full z-20 text-white">
+      <div class="container flex justify-between items-center relative min-h-[97px] mx-auto">
+        <nav class="flex items-center justify-between w-full fs-20">
+          <a href="#home" class="logo flex-shrink-0">
+            <img src="imgs/logo.png" alt="" class="h--80" />
+          </a>
+          <ul id="menu" class="flex flex-grow items-center justify-center">
+            <li>
+              <a href="#home" class="fs-13 poppins-semibold text-white hover:text-main-color transition duration-300 active">HOME</a>
+            </li>
+            <li>
+              <a href="#discover" class="fs-13 poppins-semibold text-white hover:text-main-color transition duration-300">DISCOVER</a>
+            </li>
+            <li>
+              <a href="#testimonials" class="fs-13 poppins-semibold text-white hover:text-main-color transition duration-300">TESTIMONIALS</a>
+            </li>
+            <li>
+              <a href="#support" class="fs-13 poppins-semibold text-white hover:text-main-color transition duration-300">SUPPORT</a>
+            </li>
+            <li>
+              <a href="#faq" class="fs-13 poppins-semibold text-white hover:text-main-color transition duration-300">FAQ</a>
+            </li>
+          </ul>
+          <div class="form flex items-center">
+            <ul class="flex items-center">
+              <li>
+                <a href="signup.html" class="fs-10 poppins-semibold text-white hover:text-main-color transition duration-300">SIGN UP</a>
+              </li>
+              <li>
+                <a href="login.html" class="fs-10 poppins-semibold text-white hover:text-main-color transition duration-300">LOG IN</a>
+              </li>
+            </ul>
+            <i class="fa-solid fa-bars text-white cursor-pointer mr-4"></i>
+            <i class="fa-regular fa-user fa-xs text-white cursor-pointer"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- END Header -->
+    
+    <!-- START Landing -->
+    <div class="landing min-h-screen bg-[#1f2021] bg-cover relative">
+      <div class="container">
+        <div class="intro-text absolute flex flex-col justify-center items-center text-center">
+          <h1 class="text-white alice-regular">welcome to coiff’pro</h1>
+          <h2 class="text-main-color karantina-regular mt-0 pt-0">your one and only destination</h2>
+          <p class="text-white poppins-medium">
+            At Coiff'Pro, we offer a dynamic platform designed to empower professional hairstylists and barbers by
+            showcasing their work and services. Whether you’re an independent hairstylist or run a salon, Coiff'Pro
+            connects you with clients who seek your expertise.
+          </p>
+        </div>
+        
+        <div class="buttons absolute flex justify-center items-center">
+          <a href="#discover">
+            <button class="bg-main-color text-white poppins-bold flex items-center justify-center">GET STARTED</button>
+          </a>
+          <a href="login.html">
+            <button class="bg-transparent text-white border border-white poppins-regular flex items-center justify-center">LOG IN</button>
+          </a>
+        </div>
+        
+        <a href="#discover"><img class="fa-angles-down" src="imgs/down.png" alt=""/></a>
+    </div>
+  </div>  
+    <!-- END Landing -->
+    
+    <!-- START Discover -->
+    <div id="discover" class="discover">
+      <div class="wrapper">
+        <div id="filter-banner">
+          <div class="search flex justify-start flex-wrap items-center gap-30">
+            <i
+              class="fa-solid fa-magnifying-glass fa-xl"
+              style="color: #ffffff"
+            ></i>
+            <input type="text" placeholder="search" />
+          </div>
+          <div class="filters flex-col flex justify-center items-center gap-2">
+            <h2 class="poppins-bold fs-32 self-start mt-45">Filters</h2>
+            <div
+              class="w-full filter-box popular flex justify-center gap-2 items-center"
+            >
+              <i class="fa-solid fa-fire" style="color: #000000"></i>
+              <h3 class="poppins-medium fs-15 text-black">Popular</h3>
+            </div>
+            <div
+              class="w-full filter-box localisation bg-slate-100 flex justify-center gap-2 items-center"
+            >
+              <i class="fa-solid fa-location-dot" style="color: #000000"></i>
+              <h3 class="poppins-medium fs-15 text-black">Localisation</h3>
+            </div>
+            <div
+              class="w-full filter-box hightolow flex justify-center gap-2 items-center"
+            >
+              <i
+                class="fa-solid fa-arrow-trend-down"
+                style="color: #000000"
+              ></i>
+              <h3 class="poppins-medium fs-15 text-black">Price Low to High</h3>
+            </div>
+            <div
+              class="w-full filter-box lowtohigh flex justify-center gap-2 items-center"
+            >
+              <i class="fa-solid fa-arrow-trend-up" style="color: #000000"></i>
+              <h3 class="poppins-medium fs-15 text-black">Price High to Low</h3>
+            </div>
+            <div class="self-start raleway-bold price-txt mt--10">Price</div>
+            <div class="slider-range">
+              <div class="price-range-slider slider">
+                <div class="slider-track"></div>
+                <div class="slider-handle slider-handle-lower"></div>
+                <div class="slider-handle slider-handle-upper"></div>
+              </div>
+              <div class="slider-range__prices">
+                <div class="slider-range__prices-lower raleway-medium">MAD <span>0</span></div>
+                <div class="slider-range__prices-upper raleway-medium">MAD <span>2643</span></div>
+              </div>
+            </div>
+            <div class="g-10 buttons flex justify-start items-center p10">
+              <a href="#">Clear</a>
+              <a href="#">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="info-section">
+          <div class="slide-filter">
+            <div class="filters flex-col flex justify-center items-center gap-2">
+              <img class="close self-end mt--10 cursor-pointer" src="imgs/Close.png" alt="">
+              <h2 class="poppins-bold fs-32 self-start mt--10 text-white mb-2">Filters</h2>
+              <div
+                class="w-full filter-box popular flex justify-center gap-2 items-center"
+              >
+                <i class="fa-solid fa-fire" style="color: #000000"></i>
+                <h3 class="poppins-medium fs-15 text-black">Popular</h3>
+              </div>
+              <div
+                class="w-full filter-box localisation bg-slate-100 flex justify-center gap-2 items-center"
+              >
+                <i class="fa-solid fa-location-dot" style="color: #000000"></i>
+                <h3 class="poppins-medium fs-15 text-black">Localisation</h3>
+              </div>
+              <div
+                class="w-full filter-box hightolow flex justify-center gap-2 items-center"
+              >
+                <i
+                  class="fa-solid fa-arrow-trend-down"
+                  style="color: #000000"
+                ></i>
+                <h3 class="poppins-medium fs-15 text-black">Price Low to High</h3>
+              </div>
+              <div
+                class="w-full filter-box lowtohigh flex justify-center gap-2 items-center"
+              >
+                <i class="fa-solid fa-arrow-trend-up" style="color: #000000"></i>
+                <h3 class="poppins-medium fs-15 text-black">Price High to Low</h3>
+              </div>
+              <div class="self-start raleway-bold price-txt mt-22">Price</div>
+              <div class="slider-range">
+                <div class="price-range-slider second-slider">
+                  <div class="slider-track"></div>
+                  <div class="slider-handle slider-handle-lower-second"></div>
+                  <div class="slider-handle slider-handle-upper-second"></div>
+                </div>
+                <div class="slider-range__prices">
+                  <div class="slider-range__prices-lower raleway-medium">MAD <span>0</span></div>
+                  <div class="slider-range__prices-upper raleway-medium">MAD <span>2643</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="buttons flex-wrap flex justify-center g-15 items-center p10">
+              <a href="#">Clear</a>
+              <a href="#">Apply</a>
+            </div>
+          </div>
+          <h2 class="special-heading">discover</h2>          
+          <p>
+            Discover an extensive selection of grooming services and effortlessly book appointments with your favorite barbershop for a premium experience.
+          </p>
+          <div class="search flex justify-start flex-wrap items-center gap-30">
+            <div class="input-container">
+              <i class="fa-solid fa-magnifying-glass fa-xl second" style="color: #000000"></i>
+              <input type="text" placeholder="search" />
+            </div>            
+            <a href="" id="filtericon"><img src="imgs/filter.png" alt="" /></a>
+          </div>
+          <br>
+          <img class="arrow left-arrow" src="imgs/left.png">
+          <div class="services">
+
+            <div class="cercle poppins-bold flex-col flex justify-center items-center gap-0">
+              <img decoding="async" class="img-services" src="imgs/2.jpg" alt="" />
+              <h5 class="fs-20 raleway-bold text-black  ">Hair</h5>
+            </div>
+            <div class="cercle poppins-bold flex-col flex justify-center items-center gap-0">
+              <img decoding="async" class="img-services" src="imgs/BeardTrim_Clean.jfif" alt="" />
+              <h5 class="fs-20 raleway-bold text-black  ">Beard</h5>
+            </div>
+            <div class="cercle poppins-bold flex-col flex justify-center items-center gap-0">
+              <img decoding="async" class="img-services" src="imgs/bleaching.jpg" alt="" />
+              <h5 class="fs-20 raleway-bold text-black  ">Bleach</h5>
+            </div>
+            <div class="cercle poppins-bold flex-col flex justify-center items-center gap-0">
+              <img decoding="async" class="img-services" src="imgs/bleaching.jpg" alt="" />
+              <h5 class="fs-20 raleway-bold text-black  ">Facials</h5>
+            </div>
+            <div class="cercle poppins-bold flex-col flex justify-center items-center gap-0">
+              <img decoding="async" class="img-services" src="imgs/pack.jfif" alt="" />
+              <h5 class="fs-20 raleway-bold text-black  ">Packs</h5>
+            </div>
+          </div>
+          <img class="arrow right-arrow" src="imgs/right.png">
+
+
+          <div class="boxes">
+            <div class="box">
+              <div class="image">
+                <img decoding="async" src="imgs/mask.jpg" alt="" />
+              </div>
+              <div class="flex content">
+                <img  class="flex-grow" src="imgs/logo1.jpg" alt="" />
+                <div class="flex-column text-left">
+                  <h3 class="fs-18 raleway-bold">Salon-Quality Hair Curling...</h3>
+                  <p class="fs-12 raleway-bold">bob the barber</p>
+                  <h4 class="fs-24 raleway-bold">MAD 60</h4>
+                </div>
+              </div>
+              <div class="info text-black">
+                <ul class="shuffle poppins-bold fs-10 gap-1 flex-wrap">
+                  <li>Hair Trimming</li>
+                  <li>Hair</li>
+                </ul>
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <img decoding="async" src="imgs/FAC.jpg" alt="" />
+              </div>
+              <div class="flex content">
+                <img  class="flex-grow" src="imgs/logo2.jpg" alt="" />
+                <div class="flex-column text-left">
+                  <h3 class="fs-18 raleway-bold">Salon-Quality Hair Curling...</h3>
+                  <p class="fs-12 raleway-bold">bob the barber</p>
+                  <h4 class="fs-24 raleway-bold">MAD 60</h4>
+                </div>
+              </div>
+              <div class="info text-black">
+                <ul class="shuffle poppins-bold fs-10 gap-1 flex-wrap">
+                  <li>Hair Trimming</li>
+                  <li>Hair</li>
+                </ul>
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <img decoding="async" src="imgs/shampoo.jpg" alt="" />
+              </div>
+              <div class="flex content">
+                <img  class="flex-grow" src="imgs/logo4.jpg" alt="" />
+                <div class="flex-column text-left">
+                  <h3 class="fs-18 raleway-bold">Salon-Quality Hair Curling...</h3>
+                  <p class="fs-12 raleway-bold">bob the barber</p>
+                  <h4 class="fs-24 raleway-bold">MAD 60</h4>
+                </div>
+              </div>
+              <div class="info text-black">
+                <ul class="shuffle poppins-bold fs-10 gap-1 flex-wrap">
+                  <li>Hair Trimming</li>
+                  <li>Hair</li>
+                </ul>
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <img decoding="async" src="imgs/1.jpg" alt="" />
+              </div>
+              <div class="flex content">
+                <img  class="flex-grow" src="imgs/logo1.jpg" alt="" />
+                <div class="flex-column text-left">
+                  <h3 class="fs-18 raleway-bold">Salon-Quality Hair Curling...</h3>
+                  <p class="fs-12 raleway-bold">bob the barber</p>
+                  <h4 class="fs-24 raleway-bold">MAD 60</h4>
+                </div>
+              </div>
+              <div class="info text-black">
+                <ul class="shuffle poppins-bold fs-10 gap-1 flex-wrap">
+                  <li>Hair Trimming</li>
+                  <li>Hair</li>
+                </ul>
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Discover -->
+    <!-- START Testimonials -->
+
+    <div id="testimonials" class="testimonials">
+      <h2 class="special-heading">Testimonials</h2>
+      <p>Find out what our clients think about the service they received from us. Let us know what you think by rating us on the Play Store and App Store.</p>
+
+      <!-- Carousel container -->
+      <div class="owl-carousel testimonials-container">
+        <!-- Six testimonial cards for demonstration -->
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="imgs/testi.png" alt="Profile Image" class="profile-img">
+            <div class="profile-details">
+              <h3>Leo</h3>
+              <span class="role">Lead Designer</span>
+            </div>
+            <div class="rating">★★★★☆</div>
+          </div>
+          <h4>It was a very good experience</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.</p>
+        </div>
+        
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="imgs/testi.png" alt="Profile Image" class="profile-img">
+            <div class="profile-details">
+              <h3>Leo</h3>
+              <span class="role">Lead Designer</span>
+            </div>
+            <div class="rating">★★★★☆</div>
+          </div>
+          <h4>It was a very good experience</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.</p>
+        </div>
+        
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="imgs/testi.png" alt="Profile Image" class="profile-img">
+            <div class="profile-details">
+              <h3>Leo</h3>
+              <span class="role">Lead Designer</span>
+            </div>
+            <div class="rating">★★★★☆</div>
+          </div>
+          <h4>It was a very good experience</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.</p>
+        </div>
+        
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="imgs/testi.png" alt="Profile Image" class="profile-img">
+            <div class="profile-details">
+              <h3>Leo</h3>
+              <span class="role">Lead Designer</span>
+            </div>
+            <div class="rating">★★★★☆</div>
+          </div>
+          <h4>It was a very good experience</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.</p>
+        </div>
+        
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="imgs/testi.png" alt="Profile Image" class="profile-img">
+            <div class="profile-details">
+              <h3>Leo</h3>
+              <span class="role">Lead Designer</span>
+            </div>
+            <div class="rating">★★★★☆</div>
+          </div>
+          <h4>It was a very good experience</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.</p>
+        </div>
+        
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="imgs/testi.png" alt="Profile Image" class="profile-img">
+            <div class="profile-details">
+              <h3>Leo</h3>
+              <span class="role">Lead Designer</span>
+            </div>
+            <div class="rating">★★★★☆</div>
+          </div>
+          <h4>It was a very good experience</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.</p>
+        </div>
+        
+      </div>
+
+      <!-- Custom Navigation -->
+      <div class="testimonial-navigation">
+        <button class="owl-prev"><i class="fas fa-chevron-left"></i></button>
+        <div class="owl-dots">
+          <button class="owl-dot"></button>
+          <button class="owl-dot"></button>
+          <button class="owl-dot"></button>
+          <button class="owl-dot"></button>
+          <button class="owl-dot"></button>
+          <button class="owl-dot"></button>
+        </div>
+        <button class="owl-next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+    <!-- END Testimonials -->
+
+    <!-- START Support -->
+<div id="support" class="support-container">
+  <div class="support-info">
+    <h2>SUPPORT</h2>
+    <p>Contact our support team if you have any doubts or questions about our service.</p>
+    <p><strong>Email</strong></p>
+    <p>coiffpro@gmail.com</p>
+    <p><strong>Socials</strong></p>
+    <div class="social-link">
+      <i class="fab fa-instagram"></i>
+      <a href="#">Instagram</a>
+    </div>
+    <div class="social-link">
+      <i class="fab fa-x-twitter"></i> <!-- Updated icon for Twitter (X) -->
+      <a href="#">Twitter</a>
+    </div>
+    <div class="social-link">
+      <i class="fab fa-facebook"></i>
+      <a href="#">Facebook</a>
+    </div>
+  </div>
+
+  <div class="support-form">
+    <form action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name..." required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your email..." required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+   <!-- Social Media Icons for Small Devices -->
+   <div class="social-icons-mobile">
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-x-twitter"></i>
+    <i class="fab fa-facebook"></i>
+</div>
+</div>
+<!-- END Support -->
+
+<!-- START FAQ -->
+<div id="faq" class="faq-container">
+  <div class="faq-header">
+    <h2 class="special-heading text-white">FAQ</h2>
+    <p class="faq-description">
+      Have Questions? We’ve Got You Covered! Explore Our Frequently Asked Questions To Find Quick Answers About Bookings, Services, Payments, And More. If You Don’t See What You’re Looking For, Feel Free To Contact Us Directly!
+    </p>
+  </div>
+  <div class="faq-content">
+    <div class="faq-questions">
+      <div class="faq-item">
+        <div class="faq-question">
+          How can I make a reservation?
+          <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">You can make a reservation by...</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          How can I cancel or modify my appointment?
+          <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">To cancel or modify your appointment, please...</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          How do I reset my password?
+          <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">To reset your password, go to the login page and...</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          Having trouble logging into your account?
+          <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">If you're having trouble logging in, try...</div>
+      </div>
+    </div>
+    <div class="logo-container">
+      <!-- Placeholder for CoiffPro Logo -->
+      <img src="imgs/logo.png" alt="CoiffPro Logo" class="coiffpro-logo">
+    </div>
+  </div>
+</div> 
+<!-- END FAQ-->
+
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="box">
+          <ul class="links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#discover">DISCOVER</a></li>
+            <li><a href="#testimonials">TESTIMONIALS</a></li>
+            <li><a href="#support">SUPPORT</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="line">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <div class="info">
+              2972 Westheimer Rd. Santa Ana,
+              Illinois 85486
+            </div>
+          </div>
+          <div class="line">
+            <i class="fa-solid fa-at"></i>
+            <div class="info">coiffpro@gmail.com</div>
+          </div>
+          <div class="line">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <div class="info">
+              <span>+1 891 989-11-91</span>
+              <span>+1 891 989-11-95</span>
+            </div>
+          </div>
+        </div>
+        <div class="box footer-gallery">
+            
+          <div class="">
+              <i class="fab fa-instagram"></i>
+              <a href="#">Instagram</a>
+          </div>
+          <div class="">
+              <i class="fab fa-x-twitter"></i>
+              <a href="#">Twitter</a>
+          </div>
+          <div class="">
+              <i class="fab fa-facebook"></i>
+              <a href="#">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">© 2024 — 2024 Coiff'Pro. All Rights Reserved</p>
+    </div>
+    <!-- End Footer -->
+
+
+    <script>
+      // Toggle FAQ answers
+
+      document.querySelectorAll('.faq-item').forEach(item => {
+          item.addEventListener('click', () => {
+              item.classList.toggle('active');
+          });
+      });
+
+      // Back to top button
+      document.querySelector('.back-to-top').addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top"><i class="fas fa-arrow-up"></i></div>
+      <!-- Custom pagination and navigation -->
+    
+    </div>
+
+    <!-- Include jQuery and Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      // Initialize the carousel
+      const carousel = $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 20,
+        items: 3,  // Default: 3 items per slide (on larger screens)
+        dots: false, // Disable default dots
+        nav: false,   // Remove OwlCarousel's default navigation arrows
+        responsive: {
+          0: { items: 1 },   // Mobile: 1 item per slide
+          480: { items: 1 },   // Larger phones: 1 item per slide
+          600: { items: 1 },         
+          768: { items: 2 }, // Tablet: 2 items per slide
+          1000: { items: 3 } // Desktop: 3 items per slide
+        }
+      });
+      // Ensure the carousel updates on resize
+      $(window).resize(function() {
+        carousel.trigger('refresh.owl.carousel');
+      });
+  
+      // Custom Previous Button
+      $(".owl-prev").click(function() {
+        carousel.trigger('prev.owl.carousel');
+      });
+  
+      // Custom Next Button
+      $(".owl-next").click(function() {
+        carousel.trigger('next.owl.carousel');
+      });
+  
+      // Custom Dots
+      $(".owl-dot").click(function() {
+        var index = $(this).index();
+        carousel.trigger('to.owl.carousel', [index]);
+        $(".owl-dot").removeClass("active");
+        $(this).addClass("active");
+      });
+  
+      // Set the first dot as active by default
+      $(".owl-dot").first().addClass("active");
+  
+      // Update custom dots on carousel change
+      carousel.on('changed.owl.carousel', function(event) {
+        var index = event.item.index - event.relatedTarget._clones.length / 2;
+        index = (index % event.item.count + event.item.count) % event.item.count;
+        $(".owl-dot").removeClass("active");
+        $(".owl-dot").eq(index).addClass("active");
+      });
+    });
+  </script>
+  
+    
+    
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
